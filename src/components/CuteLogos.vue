@@ -15,7 +15,7 @@ export default {
   },
   mounted () {
     axios
-      .get('http://127.0.0.1:3000/api/v1/logos')
+      .get('https://tech-logos.herokuapp.com/api/v1/logos')
       .then(response => {
         this.data = response
         console.log(response);
